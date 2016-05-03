@@ -13,8 +13,8 @@
   <node name="hokuyo_node" pkg="gazebo_plugins" type="hokuyo_node" output="screen" />
 
   <!-- start local costmap -->
-  <node name="static_sensor_costmap_node" pkg="costmap_2d" type="costmap_2d_node" output="screen">
-    <rosparam file="$(arg cob_gazebo_objects_pkg)/launch/static_sensor_costmap_params.yaml" command="load" ns="costmap" />
-  </node>
+  <!--<node name="static_sensor_costmap_node" pkg="costmap_2d" type="costmap_2d_node" output="screen">-->
+    <!--<rosparam file="$(arg cob_gazebo_objects_pkg)/launch/static_sensor_costmap_params.yaml" command="load" ns="costmap" />-->
+  <!--</node>-->
 
 </launch>
